@@ -1,0 +1,145 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0adae9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.type-car {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.type-car:hover {
+    transform: translateY(-10px);
+}
+
+.type-car img {
+    width: 200px;
+    height: auto;
+}
+
+.type-car p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.type-car button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.type-car button:hover {
+    background-color: #555;
+}
+
+.type-car.car {
+    background-color: #ffcccc;
+}
+
+.type-car.moto {
+    background-color: #cce6ff;
+}
+
+.type-car.pickup {
+    background-color: #ffebcc;
+}
+
+.sect1 {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #0adae9 0%, #FFFFFF 100%); /* Gradiente de fundo */
+    color: #333;
+}
+
+.sect1 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.sect1 p {
+    font-size: 18px;
+}
+/* styles-car.css */
+
+/* Restante do seu CSS anterior */
+
+.navbar {
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Centraliza os itens horizontalmente */
+    position: absolute;
+    top: 0; /* Coloca a lista no topo da página */
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navbar li:hover ul {
+    display: block;
+}
+
+.navbar ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 100%;
+    width: 100%;
+}
+
+.navbar ul li {
+    display: block;
+    text-align: left;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+}
+
+.navbar ul li:hover {
+    background-color: #555;
+}
+header img {
+    
+   
+    width: 100%; 
+    }
