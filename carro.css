@@ -1,0 +1,79 @@
+/* pickup.css */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #beb2b2;
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/t2/9970636-colorido-abstrato-onda-em-fundo-preto-dinamico-abstrato-linha-design-em-estilo-moderno-e-luxuoso-panoramico-papel-de-parede-design-para-banner-vetor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Adiciona uma imagem de fundo cobrindo todo o elemento body */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto; /* Adiciona margem superior e inferior para centralizar o conteúdo verticalmente */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carro-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Adiciona bordas arredondadas à imagem */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra à imagem */
+}
+
+.carro-details h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.carro-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.carro-details ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.carro-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366; 
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e; 
+    text-align: center;
+}
+
